@@ -15,12 +15,12 @@ def billing():
             break
 
     print("\n==========Bill Summary==========\n")
-    print("name     price       quantity")
+    print("name     price       quantity        subtotal")
 
     for item in items:
             name,qty,price,item_total=item
             
-            print(f"{name}      {price}     {qty}")
+            print(f"{name}      {price}     {qty}       {item_total}")
     print("\n Grand Total \n",total)
 
 
