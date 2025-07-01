@@ -1,4 +1,5 @@
 import random
+import datetime
 account = []
 a= "a"
 b="a"
@@ -90,6 +91,12 @@ def bank():
                     print("Account Number:", i[2])
                     print("Balance:", i[3])
                     print("-----------------------------")
+                    x=open("bank file.txt","a")
+                    x.write(str(datetime.datetime.now())+ '\n')
+                    x.write("Account Name:", i[0] + '\n')
+                    x.write("Account type:", i[1] + '\n')
+                    x.write("Account number:", i[2] + '\n')
+                    x.write("Balance:", i[3] + '\n')
                 break
                 
                 
