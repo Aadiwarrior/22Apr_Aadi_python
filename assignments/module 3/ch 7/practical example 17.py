@@ -1,5 +1,3 @@
-# Hybrid Inheritance Example
-
 class Animal:
     def eat(self):
         print("Animal eats")
@@ -17,7 +15,7 @@ class Pet(Dog, Cat):
         print("Pet plays")
 
 p = Pet()
-p.eat()    # Inherited from Animal
-p.bark()   # Inherited from Dog
-p.meow()   # Inherited from Cat
-p.play()   # Own method
+p.eat()  
+p.bark() 
+p.meow() 
+p.play() 

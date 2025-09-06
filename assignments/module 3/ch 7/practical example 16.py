@@ -1,5 +1,3 @@
-# Hierarchical Inheritance Example
-
 class Animal:
     def eat(self):
         print("Animal eats")

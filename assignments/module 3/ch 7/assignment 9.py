@@ -18,14 +18,15 @@ class Father:
         print("Father: Gardening")
 
 class Mother:
-    def skills(self):
+    def tech(self):
         print("Mother: Cooking")
 
 class Child(Father, Mother):
     pass
 
 c = Child()
-c.skills()  
+c.skills()
+c.tech()   
 
 print("\n--- Multilevel Inheritance ---")
 # Multilevel Inheritance
