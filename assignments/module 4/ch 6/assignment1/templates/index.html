@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Profile Management</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Tailwind CSS (via CDN for ease) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-lg">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="text-center">Doctor Profile Management</h4>
+                    </div>
+                    <div class="card-body">
+
+                        <!-- Profile Form -->
+                        <form action="#" method="POST">
+
+                            <!-- Doctor's Name -->
+                            <div class="mb-4">
+                                <label for="doctor-name" class="form-label text-gray-800">Doctor's Full Name</label>
+                                <input type="text" class="form-control border border-gray-300 rounded-lg" id="doctor-name" placeholder="Enter doctor's name">
+                            </div>
+
+                            <!-- Specialty -->
+                            <div class="mb-4">
+                                <label for="specialty" class="form-label text-gray-800">Specialty</label>
+                                <select id="specialty" class="form-control border border-gray-300 rounded-lg">
+                                    <option value="general">General Medicine</option>
+                                    <option value="cardiology">Cardiology</option>
+                                    <option value="neurology">Neurology</option>
+                                    <option value="orthopedics">Orthopedics</option>
+                                </select>
+                            </div>
+
+                            <!-- Contact Information -->
+                            <div class="mb-4">
+                                <label for="contact" class="form-label text-gray-800">Contact Number</label>
+                                <input type="tel" class="form-control border border-gray-300 rounded-lg" id="contact" placeholder="Enter contact number">
+                            </div>
+
+                            <!-- Availability -->
+                            <div class="mb-4">
+                                <label for="availability" class="form-label text-gray-800">Availability</label>
+                                <input type="text" class="form-control border border-gray-300 rounded-lg" id="availability" placeholder="e.g., Mon-Fri, 9 AM - 5 PM">
+                            </div>
+
+                            <!-- Bio -->
+                            <div class="mb-4">
+                                <label for="bio" class="form-label text-gray-800">Short Biography</label>
+                                <textarea id="bio" class="form-control border border-gray-300 rounded-lg" rows="4" placeholder="Write a short bio about the doctor..."></textarea>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary px-5 py-2">Save Profile</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap and Tailwind JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
