@@ -13,6 +13,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
   <!-- Favicon -->
   <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" type="image/png">
@@ -53,12 +55,12 @@
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <div class="ms-auto">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="contact.html">Contact</a>
-          <a href="notes.html">Notes</a>
-          <a href="signup.html">Sign Up</a>
-          <a href="login.html">Login</a>
+          <a href="index.html">Home|</a>
+          <a href="about.html">About|</a>
+          <a href="contact.html">Contact|</a>
+          <a href="notes.html">Notes|</a>
+          <a href="signup.html">Sign Up|</a>
+          <a href="login.html">Login|</a>
         </div>
       </div>
     </div>
@@ -67,12 +69,12 @@
   <!-- Hero Section -->
   <main class="flex-grow container text-center py-5">
     <div class="py-5">
-      <h1 class="text-5xl font-extrabold text-gray-800 mb-3">Welcome to <span class="text-yellow-500">MyWebsite</span></h1>
-      <p class="text-lg text-gray-700 mb-4">Your all-in-one space to take notes, stay organized, and connect effortlessly.</p>
-      <a href="signup.html" class="btn btn-warning px-4 py-2 shadow-lg fw-semibold">Get Started</a>
+      <h1 class="text-5xl font-extrabold text-gray-800 mb-3 animate__animated animate__fadeInDown">Welcome to <span class="text-yellow-500">MyWebsite</span></h1>
+      <p class="text-lg text-gray-700 mb-4 animate__animated animate__fadeInUp animate__delay-1s">Your all-in-one space to take notes, stay organized, and connect effortlessly.</p>
+      <a href="signup.html" class="btn btn-warning px-4 py-2 shadow-lg fw-semibold animate__animated animate__bounceIn animate__delay-2s">Get Started</a>
     </div>
     <div class="mt-5">
-      <img src="https://cdn.dribbble.com/users/285475/screenshots/2645703/concept.gif" alt="Hero illustration" class="img-fluid rounded shadow">
+      <img src="data:image/png;base64,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" alt="Hero illustration" class="img-fluid rounded shadow animate__animated animate__zoomIn animate__delay-3s">
     </div>
   </main>
 
